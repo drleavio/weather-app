@@ -1,12 +1,16 @@
-# React + Vite
+setup the project
+1-> clone the repositry
+2-> run the command cd weather-app
+3-> run the command npm install
+4-> set your own environment variables like supabase anon key and openweathermap api key
+5-> run the project by npm run dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Approach to project
+I break the problem in small sub problems
+like firstly I have to acheive authentication and authorisation logic for that I used supabase which makes this part very easy for me
+after the authentication is done I worked on the restrictions of pages like which page to shown to whom and when which was also easy
+for such 2-3 pages of website.
 
-Currently, two official plugins are available:
+now the final part was to integrate the weather api for which I have taken so much time because the documentation was not good enough also I have to take some references from other platforms for undrestanding the api well and the query which i have to pass on to api
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+and lastly I have tried to beautify the website like its colors and responsivness using tailwind
